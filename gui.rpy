@@ -50,23 +50,23 @@ define gui.muted_color = '#6666a3'
 define gui.hover_muted_color = '#9999c1'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#404040'
+define gui.text_color = '#d3e8ea'
 define gui.interface_text_color = '#404040'
 
 
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "font/Inconsolata.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "DejaVuSans.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "font/EpundaSans.ttf"
 
 ## The size of normal dialogue text.
-define gui.text_size = 33
+define gui.text_size = 50
 
 ## The size of character names.
 define gui.name_text_size = 45
@@ -373,11 +373,11 @@ define gui.nvl_list_length = 6
 
 ## The height of an NVL-mode entry. Set this to None to have the entries
 ## dynamically adjust height.
-define gui.nvl_height = 173
+define gui.nvl_height = None
 
 ## The spacing between NVL-mode entries when gui.nvl_height is None, and between
 ## NVL-mode entries and an NVL-mode menu.
-define gui.nvl_spacing = 15
+define gui.nvl_spacing = None
 
 ## The position, width, and alignment of the label giving the name of the
 ## speaking character.
@@ -387,9 +387,9 @@ define gui.nvl_name_width = 225
 define gui.nvl_name_xalign = 1.0
 
 ## The position, width, and alignment of the dialogue text.
-define gui.nvl_text_xpos = 675
-define gui.nvl_text_ypos = 12
-define gui.nvl_text_width = 885
+define gui.nvl_text_xpos = 300
+define gui.nvl_text_ypos = 90
+define gui.nvl_text_width = 1280
 define gui.nvl_text_xalign = 0.0
 
 ## The position, width, and alignment of nvl_thought text (the text said by the
