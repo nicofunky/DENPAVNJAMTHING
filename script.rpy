@@ -114,7 +114,7 @@ label start:
 
     #Chapter 1-3
     nvl clear
-    scene chunni1
+    scene city2
     with fade
 
     pause 1.0
@@ -124,6 +124,9 @@ label start:
     nvl clear
     ChuniNar "Well, this is convenient for me.{p}This means a lot less eyes will be on me.{p}That is always a benefit.{p}I make sure I have the right location on the map and I embark on my journey."
     ChuniNar "The destination?{p}A train station on the outskirts of the city."
+    nvl clear
+    ChuniNar "The eeriness of the landscape did not go unnoticed.{p}I understand that it is nighttime, but to have absolutely no traffic of any kind in a city of this size?{p}Utterly unheard of."
+    ChuniNar "The wind blows by, {w=0.5}unbothered by the lack of resistance usually present.{p}Nothing echos through the streets.{p}My own footsteps "
 
 
     #Chapter 2-1
