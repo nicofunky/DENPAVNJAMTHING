@@ -10,7 +10,8 @@ define Chuni = Character("Mio", who_color='#75F2BF',what_color='#75F2BF',kind=nv
 define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                               #Chunni's POV
 define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Chunni's POV center text
 #Tomboy Mio
-define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice
+define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice (as unknown)
+define TB = Character("Mio", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
@@ -329,6 +330,60 @@ label start:
     nvl clear
     ChuniNarCnt "..."
     nvl clear
+    ChuniNar "And yet, I want to speak up."
+    ChuniNar "I look up and see that same smile I remember so fondly staring back.{p}She too is enjoying the mere presence of us being within the same room.{p}I try to say anything, but the words fail to manifest at a conceptual level.{p}Everything is just so bizarre.{p}There's almost too many questions to ask,{w=1.0} too much to talk about."
+    nvl clear
+    Exa "\"I should have said this first{w=1.0}, but words cannot express how happy I am to see you again, Mio.\""
+    ChuniNar "This statement crashed my brain.{p}It ceased operations for a second before a quick reboot springed my body into action."
+    Chuni "\"Exa...{w=1.0} it really has been too long.\""
+    ChuniNar "I managed to voice some of my true feelings."
+    nvl clear
+    ExaCont "\"I'm sorry it took this long.{w=1.0} I really, really am.\""
+    ChuniNar "She even nodded her head down significantly as she spoke,{w=1.0} trying whatever way she could think of to sound as sincere as possible."
+    ExaCont "\"Mio.{w=1.0} I really am sorry.\""
+    ChuniNar "I could hear her voice begin to tremble."
+    ChuniNar "\"It's Okay.\"{p}I replied on instinct."
+    nvl clear
+    Exa "\"No.{w=1.0} No it isn't okay.{w=0.5} I can make all the excuses I want,{w=0.5} it won't change what happened.\""
+    ChuniNar "I saw her start to shake."
+    ExaCont "\"Bottom line is,{w=0.5} I failed you.{w=0.5} I really did, and I am sorry for that Mio.\""
+    nvl clear
+    Chuni "\"You are repeating yourself now, Exa.\""
+    ChuniNar "I attempted to reply as softly as I could while my legs finally find the will to move towards her."
+    ChuniNar "\"It's okay.{w=0.5} I'm here now{cps=5}...{/cps} right?\"{p}I managed to say as I plop down beside her, managing to get a firm grasp of her as I brought her close.{p}I even made sure to press extra hard against her to make sure she knew that this moment was real."
+    nvl clear
+    Exa "\"Right{cps=5}...{/cps} you are{cps=5}...{/cps} you sure are Mio.\""
+    ChuniNar "A few sniffles managed to make themseleves known as she embraced me back with what felt like all the force she could muster."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "More train ambiance filled in the gaps left between the now shared sniffles.{p}It seemed we're in the same camp{w=0.5}, as much as my feelings hate to admit it.{p}If this is not real, then this is a very convincing lie I'm living."
+    ChuniNar "Even while I hold onto Exa tightly{w=0.5}, the thoughts continue to creep in.{p}This is not real.{p}This isn't the Exa you know.{p}This moment is your own delusion.{p}And yet, the simple warmth of Exa continues to push back against this wave of self doubt."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "I can allow myself to be hopeful once in a while, right?"
+    ChuniNar "I can allow myself to enjoy this moment, right?"
+    ChuniNar "{i}Right{/i}"
+    ChuniNar "Even if it is a delusion,{w=0.5} even if it is real, {w=0.5}whatever it is...{p}It is here,{w=0.5} right now,{w=0.5} in this moment."
+    ChuniNar "The Train continues on, as do we, in each other's arms."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "Eventually,{w=0.5} inevitably,{w=0.5} the moment must come to a close.{p}The train stops,{w=0.5} and we are forced to disembark at our desitination."
+    Exa "\"We're here.\""
+    Chuni "\"And where exactly is here?\""
+    ChuniNar "We exit out of the train together, and face a forest entrance right off the train platform.{p}Exa moves in front of me and begins to drag me forawrds."
+    nvl clear
+    Exa "\"This is the path you'll have to walk down.\""
+    Chuni "\"Why?\""
+    ChuniNar "She never did explain why we're here in the first place."
+    ExaCont "\"This is the path you'll need to take if you want to see...{w=0.5} my friend{w=0.5}, the one I told you about.\""
+    nvl clear
+    Chuni "\"And why would I want to see them?\""
+    Exa "\"It's not a want, it's a need. You need to see each other.\""
+    ChuniNar "She says this with a straight face, and a tone so straight you could almost mistake it for desperation."
+    ExaCont "\"The path will be a difficult one.{w=0.5} However, this time, I will be there with you. {w=0.5}This time, you won't face it alone.\""
 
     #Chapter 3-1
 
