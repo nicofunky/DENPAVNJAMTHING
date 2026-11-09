@@ -126,7 +126,27 @@ label start:
     ChuniNar "The destination?{p}A train station on the outskirts of the city."
     nvl clear
     ChuniNar "The eeriness of the landscape did not go unnoticed.{p}I understand that it is nighttime, but to have absolutely no traffic of any kind in a city of this size?{p}Utterly unheard of."
-    ChuniNar "The wind blows by, {w=0.5}unbothered by the lack of resistance usually present.{p}Nothing echos through the streets.{p}My own footsteps "
+    ChuniNar "The wind blows by, {w=0.5}unbothered by the lack of resistance usually present.{p}Nothing echos through the streets.{p}My own footsteps don't even make a dent in the soundscape of the silent city, them being audible to my ears alone."
+    nvl clear
+    ChuniNar "No Window remains illuminated.{p}The only lights shining are the streat lamps and the stars.{p}Not even the gas stations have their lights on, and no cars remain parked."
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "Wait."
+    ChuniNar "There are no cars.{p}None parked, driving, or anything.{p}Where is everyone?"
+    ChuniNar "It is like the whole city is devoid of life."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "This is..."
+    ChuniNar "Very...{w=0.5} unusual..."
+    nvl clear
+    ChuniNar "Hairs begin to stand.{p}I feel {cps=3}eyes {/cps}looking at me.{p}I looked around, turning.{p}The source of the eyes wasn't there.{p}Of course, there is nothing here."
+    ChuniNar "I see no one here, around, nor anywhere.{p}Could the sight have come from one of the buildings?"
+    nvl clear
+    ChuniNar "Instinctually I dashed into a nearby alleyway.{p}Confirming with the map, this is a shortcut I can take.{p}And so, I make my way down the alleyway that was sswallowed in shadow."
+    nvl clear
+    ChuniNar "Past the alleyway, I made it into a residential area.{p}Buildings way less taller than the apartments, now revealed more of the sky, in turn showcasing more stars.{p}This reveal made me pause in my tracks for a second, {w=0.5} unfortunately."
+    ChuniNar "A mear distraction.{p} I continued on."
 
 
     #Chapter 2-1
