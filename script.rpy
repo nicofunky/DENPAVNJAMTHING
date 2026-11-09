@@ -15,6 +15,7 @@ define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
+define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
 
 
 # The game starts here.
@@ -178,7 +179,17 @@ label start:
     with blinds
     nvl clear
 
-    ChuniNar "..."
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "A classroom filled to the brim with people.{p}Unfortunately, our school was understaffed, so this kind of cramming was a normality within this building.{p}This came with its own benefits and downsides."
+    ChuniNar "The benefit is that it allowed someone as myself to blend in with the class.{p}I never stood out, never wanted to.{p}I only wanted to remain in my delusions, by myself, unbothered by anyone else.{p}Delusions of traveling the stars, of fighting monsters, of aiding people, the lot you'd usually image in a scene of boredom."
+    nvl clear
+    ChuniNar "A downside is that a certain few can lead the pack."
+    ChuniNar "This happened during one of the many lunch times.{p}It's a simple enough story that you hear plenty of times."
+    ChuniNar "A kid was being bullied for his food."
+    nvl clear
+    Bully "It's that time again, isn't it?"
+    ChuniNar "The bully said to the kid.{p}Of course the kid couldn't fight back.{p}Of course no one stepped in."
 
 
     #Chapter 2-1
