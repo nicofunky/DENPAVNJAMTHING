@@ -13,6 +13,8 @@ define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl
 define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
+define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
+define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 
 
 # The game starts here.
@@ -146,7 +148,37 @@ label start:
     ChuniNar "Instinctually I dashed into a nearby alleyway.{p}Confirming with the map, this is a shortcut I can take.{p}And so, I make my way down the alleyway that was sswallowed in shadow."
     nvl clear
     ChuniNar "Past the alleyway, I made it into a residential area.{p}Buildings way less taller than the apartments, now revealed more of the sky, in turn showcasing more stars.{p}This reveal made me pause in my tracks for a second, {w=0.5} unfortunately."
-    ChuniNar "A mear distraction.{p} I continued on."
+    ChuniNar "A mear distraction.{p}I continued on."
+    ChuniNar "Well, I would have, if I didn't notice an...{w=0.5} oddity."
+    nvl clear
+    ChuniNar "The Shadows."
+    ChuniNar "The shadows here seemed to leak from the light posts.{p}They spilled heavily into every direction, contradicting their natural form."
+    ChuniNar "This..."
+    nvl clear
+    Chuni "\"...isn't normal.\""
+    ChuniNar "{cps=75}No shit it isn't.{p}Of course it isn't!{/cps}{p}I sensed one of the shadows looking at me.{p}It was the same sensation as {cps=15} before.{/cps}{p}More hairs stand.{p}My senses cannot be wrong.{w=0.25} {i}Can they?{/i}"
+    nvl clear
+    ChuniNar "The further I move forward, the more shadows spill out, almost combining with each other.{p}I continued to make my way forward, avoiding stepping on the shadows."
+    nvl clear
+    ChuniNar "I came to a junction.{p}A four way junction."
+    ChuniNar "An impasse."
+    ChuniNar "The shadows from the four corners bled into each other, merging right at the middle."
+    ChuniNar "Then, the shadow took form."
+    nvl clear
+    ChuniNar "It began to rise, molding itself into a human figure.{p}The lights began to flicker rapidly, as if they're..."
+    ChuniNar "transmitting data right into my eyes?{p}It doesn't fully work.{p}I still see a shadowy figure before me, a rought approximation of the human form.{p}However, now this... thing... is wearing clothes, ones I am vary familiar with."
+    ChuniNar "It's the School uniform."
+    nvl clear
+    ChuniNar "The shadow makes a wave motion towards me."
+    ExaUn "\"Hey!{w=0.5} It's that time again, isn't it?\""
+    ChuniNar "That voice.{p}That motion.{p}It's exactly the same as before, as I remember."
+    ChuniNar "The flickering accelerates, forcing me to recall a scene of static."
+
+    scene crossing
+    with blinds
+    nvl clear
+
+    ChuniNar "..."
 
 
     #Chapter 2-1
