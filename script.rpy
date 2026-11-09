@@ -15,6 +15,7 @@ define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
+define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
 define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)
 define School2 = Character("Voice 2",color="#d3e8ea", kind=nvl,what_textalign=0.0)
@@ -231,6 +232,72 @@ label start:
     ChuniNar "Is this... was this really my doing?"
     nvl clear
     ChuniNar "I felt sick...{w=2.0}Sick."
+    ChuniNar "I felt{w=0.5} my head spin around the room. possibly as an attempt to confirm the reality I now lived in.{p}All of the eyes in the room remained locked on me.{p}That person was gone now."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "That...{w=1.0} is what happened.{p}A missing person's report was then filed a few days later.{p}Everypne refused to interact with me{w=1.0}, yet they continued their gaze.{p}They continued to stare at me{w=1.0}, the walking wonder, the scary sight, the mystery that I was."
+    nvl clear
+    School1 "How did she do that?"
+    School2 "Did she really do it?"
+    School1 "Are you sure we didn't imagine the whole deal?"
+    School3 "Haha!{w=1.0} I hope she pull another trick like that!"
+    scene city2
+    with blinds
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "I Remember."
+    ChuniNar "I Remember."
+    ChuniNar "The need to disappear."
+    ChuniNar "The will to be nothing."
+    ChuniNar "The plea to vanish."
+    nvl clear
+    ChuniNar "I{w=0.5} remember."
+    ChuniNar "It remembers."
+    ChuniNar "The shadow before me takes a form largely unknown to me.{p}It no longer remains human."
+    ExaUn "\"I'm here now.\""
+    ChuniNar "It speaks."
+    nvl clear
+    ExaUn "\"Don't worry. I'll pay you back for the favor you did me."
+    ChuniNar "It approaches"
+    ExaCont "\"I'll unpeel those eyes off you myself.\"{p}\"That is you wish after all.\""
+    ChuniNar "My Wish...{p}My Wish?"
+    ChuniNar "What is my wish?{p}To disappear?"
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "Kind of?{p}I need to disappear from these {cps=5}{i}eyes.{/cps}{/i}{p}I need to vanish from their sight.{p}I need to be alone.{p}I don't exist."
+    ChuniNar "I shouldn't exist.{p}I should have never met anyone.{p}{cps=10}I am nothing.{p}Nothing to anyone.{/cps}"
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "I heard a pin drop somewhere.{p}A new memory began to flood in, overlaying itself on the static.{p}There was someone else in that classroom."
+    ChuniNar "Someone whose gaze wasn't one of hostility.{p}Someone who would later on become a close friend."
+    nvl clear
+    ChuniNar "I remember."
+    ChuniNar "I remember that someone.{p}Despite the end we faced, despite the aftermath, despite it all damnit...{p}There was one friend there.{p}A friend that help me face the stares.{p}A freind that stood by my delusions."
+    ChuniNar "I remember...{w=1.0} Her name was..."
+    nvl clear
+    Chuni "\"Exa?\""
+    ChuniNar "The figure in front began to distort, forming itself into a tornado.{p}Wind began spiraling from within, causing the surrorunding lights to rapidly flicker once more, envoloping my sight in more static."
+    ChuniNar "Something else was forming out the shadow.{p}A more tangible figure.{p}Something more familiar."
+    nvl clear
+    ChuniNar "The shadow was blown apart,{w=1.0} revealing the newly formed entity from within.{p}On the gorund I lay and look up to see what the smoke reveals."
+    ChuniNar "It first revealed{w=0.5} a confident smile, then a pretty face, a familiar one.{p}The golden twin tails began to piece through the faint smoke curtain, until it was fully dispelled by her boastful voice."
+    nvl clear
+    Exa "\"Hahaha!{w=1.0} Yes!\""
+    ChuniNar "She did a fist pump once she saw the situation."
+    ExaCont "\"Tell me, dear one!\""
+    ChuniNar "She reached out her hand, her bandaged covered right hand."
+    ExaCont "\"Are you my master?\""
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    Chuni "\"Ah. Ahahaha.\""
+    ChuniNar "I felt the corners of my mouth rise."
+    Exa "\"Hahaha.\""
+    ChuniNar "And I-"
 
     #Chapter 2-1
 
