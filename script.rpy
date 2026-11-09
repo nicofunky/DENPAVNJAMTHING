@@ -11,7 +11,7 @@ define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,wh
 define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Chunni's POV center text
 #Tomboy Mio
 define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice (as unknown)
-define TBKn = Character("Mio", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
+define TBKn = Character("Mio?", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
@@ -304,19 +304,70 @@ label start:
     #Chapter 2-1
     stop music
     scene tomboy2
-    with wipeleft
+    with wiperight
     nvl clear
 
     TBNar "-was not amused."
     TBNar "Exa stood on top of the shed, allowing the wind to flutter her twintails and skirt. The woman below continues to stare at the utter bizarre sight that was in front of her."
     nvl clear
-    Exa "\"Hello?{w=1.0} You look like you just saw a ghost."
+    Exa "\"Hello?{w=1.0} You look like you just saw a ghost.\""
     TBNar "Exa threw out that witty comment,{w=0.5} thinking she was smart,{w=0.5} but she actually hit the nail on the head perfectly."
     TB "\"Get down!\""
     TBNar "The woman commanded."
     nvl clear
     Exa "\"...{w=0.5}Roger that.\""
-    TBNar "Exa said with a hint of hesitation.{p}She performed a totally unnecessary front flip off the shed and landed on the ground with no problems."
+    TBNar "Exa said with a hint of hesitation.{p}She performed a totally unnecessary front flip off the shed and landed on the ground with no problems.{p}The woman did not get to see this impressibe feat due to her back being already turned on Exa, dismissing her appearance as some sort of grand delusion she must have conjured up."
+    nvl clear
+    Exa "\"Hey!{w=0.5} You summoned me here for something,{w=0.5} correct?\""
+    TBNar "Exa attempted to make conversation with the woman in her signature{w=0.25} cheerful voice, one which rubbed the woman the wrong way.{p}Her hand twitched, but no respone came.{p}She continued to walk towards her house unimpeded."
+    nvl clear
+    Exa "\"No...{w=0.5} Hey!{w=0.5} You're just walking off?!\""
+    TBNar "Exa ran in front of the woman.{p}It's an honest attempt at getting the woman to stop in her tracks{w=0.5}, an attempt that gets met with hostility."
+    TBNar "The woman pulls out a sawed off shotgun and points it at Exa."
+    nvl clear
+    TB "\"Why are you here?\" the woman demanded."
+    Exa "\"Well, you summoned-\""
+    TBNar "\"Stop playing.\""
+    TBNar "The woman moves closer, shotgun still up.{p}She does not have the finger on the trigger. Despite being so close to a source of death, Exa seems more thrown off by the woman's emotional response than the possibility of being shot at.{p}She takes a breath before trying to reply to the person she once knew."
+    nvl clear
+    Exa "\"Okay{w=0.5} okay.{w=0.5} The truth is,{w=0.5} The Organisation sent me here.\""
+    TBNar "Exa lifted her hands up and hung her head in defeat."
+    TB "\"...{w=0.5}this again?{w=0.5} You are still going on about that?\""
+    TBNar "The woman says, displeased with this answer.{p}The idea that this mature looking Exa is still believing in her delusions is,{w=0.5} frankly,{w=0.5} an absurd concept to even consider.{p}Exa looks on, horrified. She tries again to find that person in her memories."
+    nvl clear
+    Exa "\"It's much more important matter than you think Mio.{w=0.5} They rarely get involved like this,{w=0.5} you should know-\""
+    TBKn "\"I came to these woods to be alone.\""
+    TBNar "Mio moves in further, shotgun still pointed, finger still off the trigger.{p}Exa refuses to move.{p}The gun begins to visibly shake, unknown if it is out of anger or hesitation."
+    nvl clear
+    TBNar "The wind fills in for the silence left by the two.{p}Exa looks down at the gun{w=0.5}, then back up at the Mio.{p}Her disbelief is changed to a defeated smile, one that the woman interprets as pity{w=0.5}, which only accelerates the shakiness of the shotgun."
+    nvl clear
+    TBKn "\"No one is here{w=0.25} Exa. No one besides me.\""
+    Exa "I know.{w=0.25} That is why-"
+    TBNar "\"I made sure it would be that way.{w=0.25} No one besides me is to set foot here.\"{p}Her voice began to shake."
+    nvl clear
+    TBKn "\"No one else shall set sight on it, nor on me.{w=0.25} I made sure of it.{w=0.25} And yet.{w=0.1} And yet...!\""
+    TBNar "Mio moves forward, pressing the shotgun agianst Exa, who still refuses to move.{p}This causes Mio to stubble forwards a little.{p}This is real.{p}This physical feedback confirms Exa is here in the flesh, meaning a loaded shotgun is now pressed up against the guts of Exa.{p}Mio panics and dashes backward,{w=0.25} creating a lot of distance between the two."
+    nvl clear
+    TBKn "\"You {i}DARE{/i} to show yourself...{w=0.25} now?{w=0.25} Of all times...{w=0.25} Now?!\""
+    TBNar "Birds flew out from the trees in the distance after her shouts.{p}It acted like ambience between the two's silence.{p}Exa continued to stand there, looking at a person she can no longer recognise."
+    TBNar "With a sigh and a bite of her lip, Exa spoke up first."
+    nvl clear
+    Exa "\"I understand.\""
+    TBKn "\"Never show your face here again.\""
+    ExaCont "\"Okay.\""
+    TBNar "\"Go back.\""
+    ExaCont "\"Okay.\""
+    TBNar "\"Go back to whatever you were doing abroad.\""
+    ExaCont "\"I understand.\""
+    nvl clear
+    TBNar "Mio continued to hold her shotgun up as Exa turned around and made her way into the woods.{p}Wiht her back now turned, Mio could have shot her to make her truly disappear from this realm.{p}And yet, despite her being one step away from ending it, depsite her intentions, the shotgun was not fired.{p}Exa simply siappeared into the forest."
+    nvl clear
+    TBKn "\"Damnit...\""
+    TBNar "\"Damnit!!!\" she said while pointing her gun towards Exa's direction"
+    TBNar "A loaded sigh left Mio.{p}\"When did I become {i}THIS WEAK{/i}?!\"{p}Her frustrations fell on no one's ears.{p}They only served to reinforce her reality,{w=0.2} well,{w=0.2} her perception of it,{w=0.5} of herself."
+    nvl clear
+    TBKn "\"She left me for that long and this is how I treat her?\""
+
 
     #Chapter 2-2
     stop music
