@@ -6,18 +6,18 @@
 define nn = Character(color="#d3e8ea", kind=nvl,what_textalign=0.0)
 define nc =Character(color="#ffcccc", kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
 #Tomboy Mio
-define Chuni = Character("Mio", who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)
-define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)
-define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
+define Chuni = Character("Mio", who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                           #Chunni's voice
+define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                               #Chunni's POV
+define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Chunni's POV center text
 #Tomboy Mio
-define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
-define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
-define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
-define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
-define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
-define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
-define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
-define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)
+define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice
+define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
+define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
+define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
+define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                             #Exa's Voice
+define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                                #Exa's Voice (used for continuing so that her name doesn't clog the screen.
+define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Bully's Voice
+define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)                                                              #Unnamed "Voice"'s Voice
 define School2 = Character("Voice 2",color="#d3e8ea", kind=nvl,what_textalign=0.0)
 define School3 = Character("Voice 3",color="#d3e8ea", kind=nvl,what_textalign=0.0)
 
@@ -303,8 +303,17 @@ label start:
 
 
 
-    #Chapter 2-2
 
+    #Chapter 2-2
+    stop music
+    scene crossing  #Temp name
+    with wipeleft
+    nvl clear
+    play music "Music/SlowRainfallLoop.ogg" fadein 1.0
+
+    ChuniNar "Exa continues to sit across from me, with her back facing the radio tower off in the distance.{p}The train continues to throttle along, filling in for the lack of conversation."
+    ChuniNar "This isn't an uncomforable kind of silence.{p}Just staring seems to be enough for the both of us at the moment.{p}Exa got to vent her frustrations over meeting her other friend, I got to hear her speak for the first time in a long while."
+    ChuniNar "That's about all we needed right now."
 
     #Chapter 3-1
 
