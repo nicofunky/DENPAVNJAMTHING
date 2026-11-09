@@ -360,13 +360,24 @@ label start:
     TBNar "\"Go back to whatever you were doing abroad.\""
     ExaCont "\"I understand.\""
     nvl clear
-    TBNar "Mio continued to hold her shotgun up as Exa turned around and made her way into the woods.{p}Wiht her back now turned, Mio could have shot her to make her truly disappear from this realm.{p}And yet, despite her being one step away from ending it, depsite her intentions, the shotgun was not fired.{p}Exa simply siappeared into the forest."
+    TBNar "Mio continued to hold her shotgun up as Exa turned around and made her way into the woods.{p}Wiht her back now turned, Mio could have shot her to make her truly disappear from this realm.{p}And yet, despite her being one step away from ending it, depsite her intentions, the shotgun was not fired.{p}Exa simply disappeared into the forest."
     nvl clear
     TBKn "\"Damnit...\""
     TBNar "\"Damnit!!!\" she said while pointing her gun towards Exa's direction"
     TBNar "A loaded sigh left Mio.{p}\"When did I become {i}THIS WEAK{/i}?!\"{p}Her frustrations fell on no one's ears.{p}They only served to reinforce her reality,{w=0.2} well,{w=0.2} her perception of it,{w=0.5} of herself."
     nvl clear
-    TBKn "\"She left me for that long and this is how I treat her?\""
+    TBKn "\"She left me for that long and this is how I treat her?{w=0.2} I should have sent her off the second I saw her!\""
+    TBNar "She hated that Exa arrived.{p}She hated that she still felt any empathy towards her.{p}She hated that she was seen."
+    TBNar "She hated that it was her that broke through."
+    nvl clear
+    TBNarCnt "..."
+    nvl clear
+    TBNar "Mio looked off into the distance, the radio tower covering part of the sunset.{p}Another day was coming to a close.{p}However, with this encounter, Mio could sense something else was going to come to a close."
+    TBNar "She knew that she was going to be invaded.{p}Be it that \'Organisation\' or something completely unexpected, {w=0.2}the safe haven is now compromised."
+    nvl clear
+    TBKn "\"How am I going to see my little sister now?\""
+    TBNar "An uncharacteristic comment split out her lips.{p}This did not go unnoticed."
+    TBNar "\"...{w=0.2}litte sister?\"{p}Only now is the reality of this absurd thought sinking in.{p}She looks off to the distance, once again at that radio tower."
 
 
     #Chapter 2-2
