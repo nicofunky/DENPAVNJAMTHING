@@ -558,8 +558,13 @@ screen about():
 
         vbox:
 
+
             label "[config.name!t]"
             text _("Version [config.version!t]\n")
+
+            #Intro
+            text "A game made for the Denpa VN Jam 2026"
+            text "Credits:{p}Nico: Game design, Writing{p}Lunatic Engineer (Wik): Music, suplementary programing & writing{p}Shio-P: Programing, suplementary game design"
 
             ## gui.about is usually set in options.rpy.
             if gui.about:

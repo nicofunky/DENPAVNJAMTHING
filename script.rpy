@@ -54,6 +54,7 @@ label start:
     nn "penis."
 
     #Chapter 1-2
+    stop music
     nvl clear
     scene chunni1
     with fade
@@ -314,6 +315,20 @@ label start:
     ChuniNar "Exa continues to sit across from me, with her back facing the radio tower off in the distance.{p}The train continues to throttle along, filling in for the lack of conversation."
     ChuniNar "This isn't an uncomforable kind of silence.{p}Just staring seems to be enough for the both of us at the moment.{p}Exa got to vent her frustrations over meeting her other friend, I got to hear her speak for the first time in a long while."
     ChuniNar "That's about all we needed right now."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "Questions begin to flow around my mind, threatening to ruin this moment of ours.{p}I will need to address them soon enough since they won't stop itching in the back of my consciousness.{p}This moment feels too nice."
+    ChuniNar "It's too perfect."
+    ChuniNar "This cannot be real, and if it is, there has to be at least a catch.{p}After all, I went out to find an alien{w=1.0}, and instead I found Exa."
+    nvl clear
+    ChuniNar "This is highly unusual."
+    ChuniNar "All of those Shadow figures, I still cannot discern if they were real or my panicked view of the world around me.{p}I almost tried to reach out to Exa out of instinct."
+    ChuniNar "Almost."
+    ChuniNar "I managed to keep my body in check before I moved a muscle.{p}This moment is too fragile.{p}It's too perfect.{p}I don't want to break it."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
 
     #Chapter 3-1
 
