@@ -16,7 +16,9 @@ define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,wh
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)
 define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)
-
+define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)
+define School2 = Character("Voice 2",color="#d3e8ea", kind=nvl,what_textalign=0.0)
+define School3 = Character("Voice 3",color="#d3e8ea", kind=nvl,what_textalign=0.0)
 
 # The game starts here.
 
@@ -188,9 +190,47 @@ label start:
     ChuniNar "This happened during one of the many lunch times.{p}It's a simple enough story that you hear plenty of times."
     ChuniNar "A kid was being bullied for his food."
     nvl clear
-    Bully "It's that time again, isn't it?"
+    Bully "It's that time again,{w=0.5} isn't it?"
     ChuniNar "The bully said to the kid.{p}Of course the kid couldn't fight back.{p}Of course no one stepped in."
-
+    ChuniNar "You've heard this before.{p}Like I said, it's a common enough trope."
+    nvl clear
+    ChuniNar "The whole class pretended to act as if this was some normalised and okay behaviour."
+    ChuniNar "That is when I felt it for the first time.{p}I could hear a ping,{w=0.2} a screw dropping somewhere.{p}A disgust I never knew before began to radiate from within to the point of being overwhelmed by it."
+    nvl clear
+    ChuniNar "I has to ask myself, why now?{p}What set it off?{p}Why only now{w=0.5} and not before?"
+    ChuniNar "I was too focused to answer my own questions.{p}In my vision only the bullied and the bully existed.{p}With a trembling body, I stood up and raised my bandaged covered hand.{p}I dragged my other hand to support the arm, as it seemed that my body was resisting this newly found will."
+    nvl clear
+    ChuniNar "No one paid me any attention as I assumed this unusual pose.{p}Not even the bully threw a glance my way, not that I needed his acknowledgement."
+    ChuniNar "I took a deep breath, and closed my eyes."
+    ChuniNar "Insticts told me to focus.{p}Focus forward.{p}Focus on the target."
+    nvl clear
+    ChuniNar "What is the target?{p}The bully."
+    ChuniNar "What is the goal?{p}To stop this scene."
+    ChuniNar "What do you feel?{p}I feel...{w=1.0} like this is an eyesore."
+    ChuniNar "All of the feeling, all of it, I focused it onto my outstretched hand, and I felt my delusions being expelled into reality."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "A silence."
+    ChuniNar "An unusual silence for the time of day enveloped the classroom.{p}This caused me to open my eyes.{p}Before me was a scene of a class, all with their eyes on me."
+    ChuniNar "All their piercing gazes were locked on me, on my odd pose, on my actions.{p}They all stared at me because the source of the commotion was gone."
+    nvl clear
+    ChuniNar "Vanished."
+    ChuniNar "As if he never was there in the first place.{p}Even the bullied remained bewildered at the sudden disappearance."
+    ChuniNar "All the eyes remained locked on me.{p}I felt it all.{p}All of the emotion radiated through me."
+    nvl clear
+    School1 "Why?"
+    School2 "Why did you do that?{p}Who are you?"
+    School1 "How?"
+    School3 "Why him?"
+    School2 "Why?"
+    School3 "How dare you?"
+    nvl clear
+    ChuniNar "It was nauseating.{p}A static took over my sight and hearing.{p}Nothing made sense anymore."
+    ChuniNar "Really?{p}He disappeared?{p}Just like that?"
+    ChuniNar "Is this... was this really my doing?"
+    nvl clear
+    ChuniNar "I felt sick...{w=2.0}Sick."
 
     #Chapter 2-1
 
