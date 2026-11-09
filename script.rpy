@@ -11,7 +11,7 @@ define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,wh
 define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Chunni's POV center text
 #Tomboy Mio
 define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice (as unknown)
-define TB = Character("Mio", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
+define TBKn = Character("Mio", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
@@ -302,9 +302,21 @@ label start:
     ChuniNar "And I-"
 
     #Chapter 2-1
+    stop music
+    scene tomboy2
+    with wipeleft
+    nvl clear
 
-
-
+    TBNar "-was not amused."
+    TBNar "Exa stood on top of the shed, allowing the wind to flutter her twintails and skirt. The woman below continues to stare at the utter bizarre sight that was in front of her."
+    nvl clear
+    Exa "\"Hello?{w=1.0} You look like you just saw a ghost."
+    TBNar "Exa threw out that witty comment,{w=0.5} thinking she was smart,{w=0.5} but she actually hit the nail on the head perfectly."
+    TB "\"Get down!\""
+    TBNar "The woman commanded."
+    nvl clear
+    Exa "\"...{w=0.5}Roger that.\""
+    TBNar "Exa said with a hint of hesitation.{p}She performed a totally unnecessary front flip off the shed and landed on the ground with no problems."
 
     #Chapter 2-2
     stop music
