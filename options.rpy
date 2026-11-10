@@ -152,6 +152,9 @@ define config.save_directory = "DENPAVNJAM-1794094397"
 
 define config.window_icon = "gui/window_icon.png"
 
+## Add shader support
+define config.default_textshader = 'typewriter'
+
 
 ## Build configuration #########################################################
 ##

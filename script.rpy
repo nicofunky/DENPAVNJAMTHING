@@ -15,18 +15,23 @@ define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,wh
 
 #Mio
 define Mio = Character("Mio", who_color='#a9837e', what_color='#a9837e', kind=nvl, what_textalign=0.0)                                          #Mio's voice, at the end
-define MioNar = Character(who_color='#a9837e', what_color='#a9837e', kind=nvl, what_textalign=0.0)                                              #Mio's naration
+define MioNar = Character(who_color='#a9837e', what_color='#a9837e', kind=nvl, what_textalign=0.0)
+define MioNarCnt = Character(who_color='#a9837e', what_color='#a9837e', kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Mio's POV center text
 
 #Exa
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
 define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                             #Exa's Voice
-define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                                #Exa's Voice (used for continuing so that her name doesn't clog the screen.
+define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)   
+define ExaContCnt = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Exa's Voice (used for continuing so that her name doesn't clog the screen.
 
 #Others
 define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Bully's Voice
 define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)                                                              #Unnamed "Voice"'s Voice
 define School2 = Character("Voice 2",color="#d3e8ea", kind=nvl,what_textalign=0.0)
 define School3 = Character("Voice 3",color="#d3e8ea", kind=nvl,what_textalign=0.0)
+
+#Fade
+define end_fade = Fade(3.0, 2.5, 3.0, color="#000000")
 
 # The game starts here.
 
@@ -38,7 +43,6 @@ label start:
     play music "Music/Respite.ogg" fadein 5.5 volume 0.5
 
     #Chapter 1-1
-
     nn "Stars."
     nn "Stars continue to rain down their light from above, regardless of how we feel.{p}They’re indifferent to our existence.{p}They’re unbothered by the continuous gaze of mankind.{p}They don’t mind all the myths and legends we build up around them.{p}They accept any visitors or passerbys, regardless of their status."
     nn "They continue to shine, regardless of it all, until they die."
@@ -575,9 +579,180 @@ label start:
 
 
     #Chapter 3-2
-
-
-
+label shiok:
+    with pixellate
+    nvl clear
+    TBNar "The sudden noise of items being thrown around startled her. This noise serves as the most unnerving confirmation possible."
+    nvl clear
+    TBNar "There is someone else inside this house.{p}"
+    TBNar "It came from the locked room, the one that is never supposed to be opened."
+    nvl clear
+    TBNar "She took arms and went up to the door and put {i}Her{/i} ear up towards it."
+    nvl clear
+    ChuniNar "“Come on… come on! Where is it?!”"
+    nvl clear
+    TBNar "...could be heard just beyond this one boundary.{p}"
+    TBNar "She knew what this voice was. {w=1.0}She knew that the barrier has broken down."
+    TBNar "She was now at an impasse."
+    TBNar "Either she walks away, or she opens the door."
+    nvl clear
+    ChuniNar "“Damn it… where is Exa!?”"
+    nvl clear
+    TBNar "More shouts from beyond the door."
+    TBNar "She put her hand on the door handle.{w=0.5} It is still locked firmly."
+    TBNar "She lifts her hand up off the handle."
+    nvl clear
+    ChuniNar "“{cps=14}Please!{w=0.1} Please!{/cps} {w=1.0} It has to be here somewhere!”"
+    TBNar "It’s a kind of desperation she went through herself."
+    nvl clear
+    TBNar "Ah. Her empathy is flaring up again, that emotion she tried but failed to kill off."
+    ChuniNar "Ah!{w=0.4} That’s right!"
+    TBNar "A shout came from the other side... {w=0.5}Then silence."
+    nvl clear
+    TBNar "She knew this feeling. {w=0.5}The person on the other side was starting up those powers."
+    TBNar "Instinctually, she flung the door open."
+    TBNar "What was inside was the remains of {i}Her{/i} past, holding her hand up at the door."
+    nvl clear
+    TBNar "The two locked in on each other. {w=0.4}{i}Her{/i} arm twitches as if she wanted to close the door on instinct but {i}Her{/i} shock stopped {i}Her{/i} arm from working correctly."
+    ChuniNar "“It’s you.”"
+    TBNar "The younger self states the obvious."
+    TBNar "The older self tried to slam the door shut but the younger self was too quick."
+    TBNar "The young girl breaks the stalemate and dashes towards the door."
+    nvl clear
+    TBNar "It takes a second for the older one to come to her senses and tries to slam the door shut,{w=0.4} only for the young girl to make it in time and successfully prevent the door from closing with her foot."
+    TBNar "{nw}{w=0.3}It’s official now.{p}"
+    TBNar "The sealed self has escaped containment."
+    nvl clear
+    TBNar "The woman was forced to back off and draw her gun on the younger one’s entrance. {p}{p}However, instead of reacting with panic, the young girl simply erects a barrier with her bandage written arm."
+    TBNarCnt "Shooting it renders the shot ineffective."
+    nvl clear
+    TBNar "Knowing she’s now at a disadvantage, the older self exited out of the building and out into the open."
+    TBNar "The young girl wordlessly followed her out."
+    nvl clear
+    TBNar "The two now stood, {w=0.5}surrounded by sunset tinted trees."
+    TBNar "The older one knew that this was her last stand. {w=0.5}She could not escape into the forest."
+    TBNar "The trees marked where her domain ended."
+    TBNar "If she were to step outside, she knows that she’ll return to the real world."
+    TBNar "She would rather {shader=jitter}{b}die{/b}{/shader} than face reality ever again."
+    nvl clear
+    TBNar "And so, she raised her right arm up, {w=0.5}still holding that sawed off shotgun, {w=0.4}closed her eyes, {w=0.6}and focused her mind."
+    TBNar "It felt... {w=0.5}nostalgic{w=0.4}, that’s how long it was since the older one used this kind of power."
+    TBNar "She remembered the activation phase with ease."
+    nvl clear
+    TBNar "What is the target?"
+    ChuniNar "{fast}...The younger me."
+    TBNar "What is the goal?"
+    ChuniNar "{fast}...To stop this scene."
+    TBNar "What do you feel?"
+    ChuniNar "{fast}...I fee{cps=5}l...{/cps}{w=1.0} like I need to disappear."
+    nvl clear
+    ExaCont "“Are you sure about that?”"
+    TBNar "A boastful voice appeared right before the older self, seemingly out of nowhere."
+    TBNar "It was Exa. {w=0.6}She forcefully stopped the command."
+    ChuniNar "“It just had to be you again...”"
+    TBNar "With this, {w=0.3}the older self summoned her axe,{w=0.3} and began to swing wildly at Exa. {w=0.7} She dodged all of the swings with ease."
+    nvl clear
+    ExaCont "“Again, Mio,{w=0.5} I’m sorry I wasn’t there for you."
+    extend "I’m here to make it up to you.”"
+    MioNar "“You can make it up to me by leaving!!! {w=0.5}I don’t need you now!”"
+    ExaCont "“You do need me, {w=0.5}you just need to open yourself-”"
+    nvl clear
+    MioNarCnt "{shader=jitter}{b}“Not happening!”{/b}{/shader}"
+    TBNar "A surprise shot was fired at Exa, but the younger one blocks it again. {w=0.4}Exa continues to speak while closing the distance."
+    nvl clear
+    ExaCont "“I saw it all, Mio. {w=0.5}I saw your struggles, {w=0.5}and I know I broke my promise to you. {w=0.5}But then you gave me this chance,{w=0.4} this very space to help you.”"
+    ExaCont "“A space that's only accessible by people like us, regardless of physical boundaries.{w=0.5} It's almost as if you were inviting me in.”"
+    nvl clear
+    MioNar "“Shut up! No I wasn't!”"
+    ExaCont "“Still stubborn till the very end ey? {w=0.4}Right, Mio. {w=0.6}You're up!”"
+    TBNar "The two who bore the name shot their eyes at Exa."
+    ExaCont "“Right, there's two of you now... {w=1}Young Mio!”"
+    nvl clear
+    TBNar "She beckonned her over."
+    ExaCont "“Only you can now sav{cps=8}e...{/cps}{w=0.6} yourself.{w=1.0} I've done all I can. {w=0.5}The rest is up to you.”"
+    MioNar "{i}“...right.”{/i}"
+    TBNar "Exa raised her hand, as if she were asking for a high five.{w=0.5} Young Mio met that expectation and tagged herself in."
+    nvl clear
+    TBNar "The two once again stared at each other, {w=0.4}with young Mio staring down due to Old Mio currently laying on the ground."
+    MioNar "{i}“I saw those memories too.”{/i}"
+    MioNar "“Did you now? {w=0.4}So you must know how I feel.”"
+    MioNar "{i}“I do. {w=0.8}I really do. {w=0.8} After all...”{/i}"
+    MioNarCnt "“{i}I'm {b}you{/b}.”{/i}"
+    nvl clear
+    MioNar "“More like we are me.”"
+    MioNar "{i}“Something to that extent.”{/i}"
+    MioNar "“So you must know that I'm not leaving.”"
+    TBNar "Old Mio still digs her heels in."
+    nvl clear
+    MioNar "{i}“Even with everything gone, you still want to stay here?”{/i}"
+    MioNar "“Correct. {w=0.5}I get to live by my own terms here.”"
+    MioNar "{i}“So...{w=0.5} you've fully converted to being an earthling.”{/i}"
+    MioNar "“...huh?”"
+    nvl clear
+    MioNar "{i}“You've accepted being human.{w=0.5} You abandoned your pledge to {b}The Organisation{/b}.”{/i}"
+    MioNar "“This organisation business again...{w=0.5} of course you'd still be into it.”"
+    TBNar "Young Mio shoots her right hand up into the sky,{w=0.3} and began forming a ball of light in the palm of her hand. "
+    MioNar "{i}“It seems that the harshness of reality made you forget.”{/i}"
+    MioNar "“Forge{cps=8}t...{/cps}{w=0.4} what?”"
+    nvl clear
+    MioNar "{i}“I'll show you. {w=1.0}Look up.”{/i}"
+    TBNar "The sun set just beyond the horizon, allowing the stars of the night to begin peeking beyond the yellow curtains."
+    TBNar "Mio's ball of light began resonating with the stars above.{w=0.5} They all began to flicker as they transmit a memory this Old Mio forgot."
+    nvl clear
+    ExaCont "“Mio,{w=1.0} do you believe in miracles?”"
+    MioNar "“Exa,{w=0.6} please, {w=1.0}with our powers,{w=0.6} any miracle can happen at any time.”"
+    ExaCont "“I want you to believe in that power Mio.”"
+    TBNar "Exa grabbed her hands and pressed them together."
+    nvl clear
+    MioNar "“Eh? {w=0.8}Where is this coming from?”"
+    TBNar "Exa symboled to stay quiet and continued."
+    nvl clear
+    ExaCont "“If there ever comes a time for it...{w=0.8} I want you to believe in the biggest miracle you can.”"
+    MioNar "“The biggest?”"
+    ExaCont "“The biggest...”"
+    ExaCont "“...whatever is in your heart...”"
+    ExaCont "“...whatever truth you desire the most...”"
+    ExaCont "“I want you to wish for it with all your might.”"
+    nvl clear
+    TBNar "Exa paused for dramatic effect."
+    ExaCont "“Of course,{w=0.6} you know this is not how our powers work. {w=0.6}Only after someone has devoted themselves to their path fully,{w=0.6} and seen the end of it,{w=0.6} only then can a miracle be granted.”"
+    TBNar "Mio remained confused,{w=0.5} even after attempting to process this vague information."
+    nvl clear
+    MioNar "{i}“Doesn't the end of a path imply a successful journey?”{/i}"
+    ExaCont "“It could also mean a dead end. {w=0.5}With our powers,{w=0.6} we can defy fate and mold our happy endings into reality.”"
+    TBNar "Mio begins gathering a ball of energy around her hands."
+    ExaCont "“But only after we put in the sufficient amount of work.{w=0.6} Something in exchange for something.{w=0.5} The greater the effort,{w=0.2} the greater the reward.”"
+    nvl clear
+    MioNar "{i}“So I still need to work?”{/i}"
+    ExaCont "“Of course.{w=0.4} That is how we stay human,{w=0.15} despite our magical powers.{w=0.5} No freebies.”"
+    MioNar "{i}“...okay.{w=0.5} I understand.{w=0.6} I think.” {/i}"
+    TBNar "Exa shut off Mio's ball of energy, and began to stretch."
+    nvl clear
+    ExaCont "“Good good, got the message across. {w=0.6}Seriously,{w=0.5} never doing that serious business again!{w=0.5} {b}Unless!{/b} {w=0.6}It is serious business!”"
+    TBNar "That’s where the transmission ends."
+    MioNar "“It’s all so obvious in retrospect.”{nw}"
+    TBNar "...admits Old Mio."
+    nvl clear
+    ExaCont "“Mio, {w=0.8}do you believe in miracles?”{nw}"
+    TBNar "Asks Exa as she stretched out her hand to the Old Mio.{w} Young Mio follows suit."
+    MioNar "“... absolutely.”"
+    TBNar "She accepts both the hands, which pull her up. {w=0.5}Now everyone is linked."
+    nvl clear
+label current: #This is for testing only.
+    ExaCont "“Well then,{w=0.8} here it is.{w=1.0} Your own {shader=jitter}miracle{/shader}.”"
+    TBNar "And the whole world faded to black...{w=1.0}"
+    scene black
+    with end_fade
+    nvl clear
+    ExaCont "“Found you.”{nw}"
+    TBNar "..she whispered to Mio, and smiles warmly."
+    TBNar "Stars twinkle behind Exa."
+    nvl clear
+    MioNar "“...took you long enough.”{nw}"
+    TBNar "...replied Mio in a raspy voice."
+    ExaContCnt "{cps=14}“Welcome back...”{/cps}"
+    scene black
+    with end_fade
 
     # This ends the game.
 
