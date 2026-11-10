@@ -1,7 +1,7 @@
 ﻿#Start of document. Hi!
 
 define nn = Character(color="#d3e8ea", kind=nvl,what_textalign=0.0)                                                                             #Basic text with no styling
-define nc =Character(color="#ffcccc", kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)                                            #Basic text positioned on center of screen
+define nc =Character(color="#ffcccc", kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)                                           #Basic text positioned on center of screen
 #Chunni Mio
 define Chuni = Character("Mio", who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                           #Chunni's voice
 define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                               #Chunni's POV
@@ -12,6 +12,10 @@ define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=n
 define TBKn = Character("Mio?", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                           #Tomboy's Voice (as Mio)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
+
+#Mio
+define Mio = Character("Mio", who_color='#a9837e', what_color='#a9837e', kind=nvl, what_textalign=0.0)                                          #Mio's voice, at the end
+define MioNar = Character(who_color='#a9837e', what_color='#a9837e', kind=nvl, what_textalign=0.0)                                              #Mio's naration
 
 #Exa
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
@@ -31,6 +35,7 @@ label start:
     #show chunni1   Show should be used for characters, not scenes
     scene chunni1
     nvl show dissolve
+    play music "Music/Respite.ogg" fadein 5.5 volume 0.5
 
     #Chapter 1-1
 
@@ -62,7 +67,7 @@ label start:
 
     nvl clear
     Chuni "I am alone.{p}I\'m alone.{p}{cps=10}I am alone.{/cps}{p}I am {cps=5}alone.{/cps}"
-    ChuniNar "I speak as if there was someone here.{p}I cut myself off from the world by staying in this room.{p}There is no access to the outside here.{p}I am by myself in this room.{p}No {cps=10}eyes{/cps} can cast their gaze on me while I am in this room."
+    ChuniNar "I speak as if there was someone here.{p}I cut myself off from the world by staying in this room.{p}There is no access to the outside here.{p}I am by myself in this room.{p}No {i}{cps=10}eyes {/cps}{/i}can cast their gaze on me while I am in this room."
     nvl clear
     ChuniNarCnt "This is True."
     nvl clear
@@ -458,6 +463,30 @@ label start:
     ExaCont "\"The path will be a difficult one.{w=0.5} However, this time, I will be there with you. {w=0.5}This time, you won't face it alone.\""
 
     #Chapter 3-1
+    stop music
+    scene forest2
+    with pixellate
+    nvl clear
+    ChuniNar "Exa continued to guide me through the forest, holding my hand firmly.{p}The forest path itself was lit up by the occasional lamppost, which was a greatly appreciated feature since the sky has been blocked off by the trees.{p}I couldn't defer my vision to the sky anymore{w=1.0}, meaning I could only face forward now.{p}Forward{w=1.5}, with Exa in hand."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "The air feels heavy.{p}Something is definitely off with this path."
+    Exa "\"Are you keeping up?\""
+    ChuniNar "She asks out of concern."
+    Chuni "\"Yeah{w=1.0}, yeah I am.\""
+    ExaCont "\"Good.{w=1.0} It's about to begin.\""
+    ChuniNar "\"...What is?\""
+    nvl clear
+    ChuniNar "There was a lamppost,{w=1.0} I saw it.{p}It was flickering rapidly.{p}The shadows began to take shape once more."
+    ChuniNar "This time, they seemed uninterested in my existence.{p}Instead they assumed the form of actors and began playing out a familiar scene."
+    ChuniNar "It was the classroom scene.{p}It played out exactly as I remembered it.{p}I even felt a tint of the feelings I felt back then."
+    nvl clear
+    ChuniNar "Exa's grip tightens."
+    Chuni "\"You can see this too?\""
+    Exa "\"I can.\""
+    ChuniNar "Once the performance is finished, the shadows disintegrate, and Exa continues pulling me forward."
+    nvl clear
 
 
     #Chapter 3-2
