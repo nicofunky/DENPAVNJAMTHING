@@ -487,6 +487,58 @@ label start:
     Exa "\"I can.\""
     ChuniNar "Once the performance is finished, the shadows disintegrate, and Exa continues pulling me forward."
     nvl clear
+    ChuniNar "We stop at another lamppost,{w=1.0} one that begins flickering.{p}This time, the shadows emerged into another performance that was familiar to me.{p}A copy of Exa standing at the train station was shown."
+    ChuniNar "Her grip tightens once again."
+    ChuniNar "In the play, Exa mouths off some words that remain inaudible, and yet their meaning still reaches my ears, along with those feelings I felt back then."
+    nvl clear
+    Exa "\"I will be back, Mio.{w=1.0} I will be there when you'll need me.\""
+    ChuniNar "She says those words I trusted so much in.{p}She knows those words never became a reality.{p}That's why her hand is shaking.{w=1.0} That's why I can feel the guilt radiate from her, both from the performance and herself.{p}I'm sure she's also feeling my pain of abandonment."
+    Exa "\"I'm sorry.\""
+    ChuniNar "Is all she could muster."
+    nvl clear
+    Chuni "\"Don't be, it wasn't your fault.\""
+    ChuniNar "We both know it wasn't her choice to make.{p}Exa takes a deep breath."
+    Exa "\"Right.{w=1.0} Let's continue on.\""
+    ChuniNar "She continues pulling me along the path."
+    nvl clear
+    ChuniNar "Another flickering light.{p}Another memory.{p}This time, it is not of my own.{p}Unfamiliar people play out an unfamiliar scene, yet the emotions still wash over me all the same."
+    ChuniNar  "Due to an error beyond her control, she was blamed for the company’s closure and lost her job, the one she tried so hard to get and maintain.{p}No one believed in her pleas.{p}No one understood her attempts.{p}She was kicked out of what remained with nothing."
+    nvl clear
+    ChuniNar "Another flickering light.{p}Another memory, one not of my own."
+    ChuniNar "Her partner slams a chunk of papers in front of her.{p}The regret and embarrassment of it all began to radiate from within me.{p}Despite her protests and attempts at mending the situation, this was the outcome she was forced to accept."
+    nvl clear
+    ChuniNar "Another flickering light.{p}Another memory."
+    ChuniNar "This time, the light pulsed to the beat of the heart monitors.{p}This machine was hooked up to two specific people, one of the last ones she had the will to care for.{p}She tried her best, and yet her care wasn’t enough.{p}The monitors flattened out, as did the light."
+    nvl clear
+    ChuniNar "Another light.{p}No one remained by her side.{p}The very last people she thought would be at her side spilled away from her in all directions.{p}Her brothers, sisters, relatives, all walked away."
+    ChuniNar "She was left alone, by everyone, by everything.{p}And so, she stood there."
+    ChuniNar "All of the anger, all of the sorrow, all of it.{p}She made her way forward."
+    nvl clear
+    ChuniNarCnt "As did I, as did we. Exa snapped me out of my trance."
+    nvl clear
+    Exa "\"Mio!{w=1.5} Mio please!!!{w=1.0} You're still alive, right!\""
+    ChuniNar "Tears were streaming down her face."
+    ExaCont "\"You're still with me, right?{w=1.0} Right?!\""
+    nvl clear
+    Chuni "\"Yes,{w=1.0} yes.{w=2.0} I'm{cps=3}...{/cps}{w=0.5} I'm still here Exa.\""
+    ChuniNar "I try to tighten the grasp on her hand, only for my muscles to fail me.{p}That was the first domino."
+    scene forest1
+    ChuniNar "Everything else began to fail as all of the feelings pured over me at once.{p}Everything felt off.{p}The world was upside down.{p}My {i}skin{/i} was inside out.{p}The air felt on fire.{p}My guts turned to inflated mush."
+    nvl clear
+    ChuniNarCnt "Someone chose to be alive, after experiencing all that?"
+    nvl clear
+    ChuniNar "Exa carried my limping self to what seemed to be a pool of water, surrounded by four lampposts, one in each corner of the pool"
+    Exa "\"This is the last one.{w=1.0} I know it has been tough, but this time I am here.\""
+    ChuniNar "She makes me look into her eyes."
+    ExaCont "\"This time,{w=1.0} I will be there with you, until the very end.\""
+    nvl clear
+    ChuniNar "That's all she says.{p}She continues to support me as we stare out into the pool."
+    ChuniNar "I take note of the stone monument placed before us.{p}It had an engrave paragraph of text that looked unrecognisable to my eyes."
+    ChuniNar "We come a little closer, close enough to see our reflections in the water."
+    nvl clear
+    ChuniNar "In the reflection I do not see myself, nor Exa.{p}Instead I see a figure, one that feels eerily familiar."
+    ChuniNar "The four lampposts begin to flicker.{p}The stone text comes to life.{p}The final show begins."
+
 
 
     #Chapter 3-2
