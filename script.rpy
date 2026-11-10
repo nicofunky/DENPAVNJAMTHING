@@ -183,7 +183,7 @@ label start:
     ChuniNar "That voice.{p}That motion.{p}It's exactly the same as before, as I remember."
     ChuniNar "The flickering accelerates, forcing me to recall a scene of static."
 
-    scene classroom1
+    scene classroom3
     with blinds
     nvl clear
 
@@ -210,7 +210,7 @@ label start:
     ChuniNar "I took a deep breath, and closed my eyes."
     ChuniNar "Insticts told me to focus.{p}Focus forward.{p}Focus on the target."
     nvl clear
-    scene classroom2
+    scene classroom1
     ChuniNar "What is the target?{p}The bully."
     ChuniNar "What is the goal?{p}To stop this scene."
     ChuniNar "What do you feel?{p}I feel...{w=1.0} like this is an eyesore."
@@ -222,7 +222,7 @@ label start:
     ChuniNar "An unusual silence for the time of day enveloped the classroom.{p}This caused me to open my eyes.{p}Before me was a scene of a class, all with their eyes on me."
     ChuniNar "All their piercing gazes were locked on me, on my odd pose, on my actions.{p}They all stared at me because the source of the commotion was gone."
     nvl clear
-    scene classroom3
+    scene classroom2
     ChuniNar "Vanished."
     ChuniNar "As if he never was there in the first place.{p}Even the bullied remained bewildered at the sudden disappearance."
     ChuniNar "All the eyes remained locked on me.{p}I felt it all.{p}All of the emotion radiated through me."
@@ -544,6 +544,7 @@ label start:
     scene black
     with pixellate
     nn "{i}After suffering a job loss, romantic failure beyond repair, death of her parents, disappointment and rejection of her brothers and sisters, failures to keep up with life at all, there was no one else that would take her in.{/i}"
+    nn "{i}She had to roam the streets on the outskirts, near this very forest.{/i}"
 
 
     scene chunni1
