@@ -564,7 +564,7 @@ screen about():
 
             #Intro
             text "A game made for the Denpa VN Jam 2026"
-            text "Credits:{p}Nico: Game design, Writing{p}Lunatic Engineer (Wik): Music, suplementary programing & writing{p}Shio-P: Programing, suplementary game design"
+            text "Credits:{p}Nico: Game design, Game direction, and Writing{p}Lunatic Engineer (Wik): Music, Programing, and writing{p}Shio-P: Programing and suplementary game design"
 
             ## gui.about is usually set in options.rpy.
             if gui.about:

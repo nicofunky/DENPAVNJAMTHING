@@ -183,7 +183,7 @@ label start:
     ChuniNar "That voice.{p}That motion.{p}It's exactly the same as before, as I remember."
     ChuniNar "The flickering accelerates, forcing me to recall a scene of static."
 
-    scene crossing
+    scene classroom1
     with blinds
     nvl clear
 
@@ -210,6 +210,7 @@ label start:
     ChuniNar "I took a deep breath, and closed my eyes."
     ChuniNar "Insticts told me to focus.{p}Focus forward.{p}Focus on the target."
     nvl clear
+    scene classroom2
     ChuniNar "What is the target?{p}The bully."
     ChuniNar "What is the goal?{p}To stop this scene."
     ChuniNar "What do you feel?{p}I feel...{w=1.0} like this is an eyesore."
@@ -221,6 +222,7 @@ label start:
     ChuniNar "An unusual silence for the time of day enveloped the classroom.{p}This caused me to open my eyes.{p}Before me was a scene of a class, all with their eyes on me."
     ChuniNar "All their piercing gazes were locked on me, on my odd pose, on my actions.{p}They all stared at me because the source of the commotion was gone."
     nvl clear
+    scene classroom3
     ChuniNar "Vanished."
     ChuniNar "As if he never was there in the first place.{p}Even the bullied remained bewildered at the sudden disappearance."
     ChuniNar "All the eyes remained locked on me.{p}I felt it all.{p}All of the emotion radiated through me."
@@ -538,7 +540,25 @@ label start:
     nvl clear
     ChuniNar "In the reflection I do not see myself, nor Exa.{p}Instead I see a figure, one that feels eerily familiar."
     ChuniNar "The four lampposts begin to flicker.{p}The stone text comes to life.{p}The final show begins."
+    nvl clear
+    scene black
+    with pixellate
+    nn "{i}After suffering a job loss, romantic failure beyond repair, death of her parents, disappointment and rejection of her brothers and sisters, failures to keep up with life at all, there was no one else that would take her in."
 
+
+    scene chunni1
+    with pixellate
+    ChuniNar "-I awoke in my room.{p}Exa was no longer by my side."
+    ChuniNar "Why...?{p}Why am I back here?{p}How am I back here?{p}Before the confusion took over, I ran for the door to try step outside again."
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "It's locked.{p}I can't leave.{p}The panic takes over."
+    ChuniNar "Why?{p}Why??{p}Why?!"
+    nvl clear
+    ChuniNarCnt "..."
+    nvl clear
+    ChuniNar "A key...{w=1.0} Right, a key.{p}There has to be a key somewhere here, right?{p}{i}Right?!{/i}Even if I have to flip this whole room upside down,{w=1.0} I have to find it!"
 
 
     #Chapter 3-2
