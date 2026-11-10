@@ -549,6 +549,7 @@ label start:
 
     scene chunni1
     with pixellate
+    nvl clear
     ChuniNar "-I awoke in my room.{p}Exa was no longer by my side."
     ChuniNar "Why...?{p}Why am I back here?{p}How am I back here?{p}Before the confusion took over, I ran for the door to try step outside again."
     nvl clear
