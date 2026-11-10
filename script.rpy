@@ -146,7 +146,7 @@ label start:
     ChuniNar "The eeriness of the landscape did not go unnoticed.{p}I understand that it is nighttime, but to have absolutely no traffic of any kind in a city of this size?{p}Utterly unheard of."
     ChuniNar "The wind blows by, {w=0.5}unbothered by the lack of resistance usually present.{p}Nothing echos through the streets.{p}My own footsteps don't even make a dent in the soundscape of the silent city, them being audible to my ears alone."
     nvl clear
-    ChuniNar "No Window remains illuminated.{p}The only lights shining are the streat lamps and the stars.{p}Not even the gas stations have their lights on, and no cars remain parked."
+    ChuniNar "No Window remains illuminated.{p}The only lights shining are the street lamps and the stars.{p}Not even the gas stations have their lights on, and no cars remain parked."
     ChuniNarCnt "..."
     nvl clear
     ChuniNar "Wait."
