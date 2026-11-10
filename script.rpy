@@ -543,7 +543,7 @@ label start:
     nvl clear
     scene black
     with pixellate
-    nn "{i}After suffering a job loss, romantic failure beyond repair, death of her parents, disappointment and rejection of her brothers and sisters, failures to keep up with life at all, there was no one else that would take her in."
+    nn "{i}After suffering a job loss, romantic failure beyond repair, death of her parents, disappointment and rejection of her brothers and sisters, failures to keep up with life at all, there was no one else that would take her in.{/i}"
 
 
     scene chunni1
