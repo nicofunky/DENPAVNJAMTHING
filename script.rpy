@@ -1,22 +1,24 @@
-﻿# The script of the game goes in this file.
+﻿#Start of document. Hi!
 
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define nn = Character(color="#d3e8ea", kind=nvl,what_textalign=0.0)
-define nc =Character(color="#ffcccc", kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)
-#Tomboy Mio
+define nn = Character(color="#d3e8ea", kind=nvl,what_textalign=0.0)                                                                             #Basic text with no styling
+define nc =Character(color="#ffcccc", kind=nvl, what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)                                            #Basic text positioned on center of screen
+#Chunni Mio
 define Chuni = Character("Mio", who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                           #Chunni's voice
 define ChuniNar = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_textalign=0.0)                                               #Chunni's POV
 define ChuniNarCnt = Character(who_color='#75F2BF',what_color='#75F2BF',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)          #Chunni's POV center text
+
 #Tomboy Mio
 define TB = Character("Unknown", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Tomboy's Voice (as unknown)
-define TBKn = Character("Mio?", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                              #Tomboy's Voice (as Mio)
+define TBKn = Character("Mio?", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                           #Tomboy's Voice (as Mio)
 define TBNar = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                                  #Tomboy's POV
 define TBNarCnt = Character(who_color='#DC143C',what_color='#DC143C',kind=nvl,what_xalign=0.5, what_yalign=0.5, what_textalign=0.5)             #Tomboy's Pov center Text
+
+#Exa
 define ExaUn = Character("Unknown", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                       #Exa's Voice (as Unknown)
 define Exa = Character("Exa", who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                             #Exa's Voice
 define ExaCont = Character(who_color='#a9a9a9',what_color='#a9a9a9',kind=nvl,what_textalign=0.0)                                                #Exa's Voice (used for continuing so that her name doesn't clog the screen.
+
+#Others
 define Bully =Character("Bully", who_color='#DC143C',what_color='#DC143C',kind=nvl,what_textalign=0.0)                                          #Bully's Voice
 define School1 = Character("Voice 1",color="#d3e8ea", kind=nvl,what_textalign=0.0)                                                              #Unnamed "Voice"'s Voice
 define School2 = Character("Voice 2",color="#d3e8ea", kind=nvl,what_textalign=0.0)
@@ -26,33 +28,29 @@ define School3 = Character("Voice 3",color="#d3e8ea", kind=nvl,what_textalign=0.
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     #show chunni1   Show should be used for characters, not scenes
     scene chunni1
     nvl show dissolve
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-
-
-    # These display lines of dialogue.
     #Chapter 1-1
 
     nn "Stars."
     nn "Stars continue to rain down their light from above, regardless of how we feel.{p}They’re indifferent to our existence.{p}They’re unbothered by the continuous gaze of mankind.{p}They don’t mind all the myths and legends we build up around them.{p}They accept any visitors or passerbys, regardless of their status."
     nn "They continue to shine, regardless of it all, until they die."
     nvl clear
-    nc "{cps=0}penis penis balls{/cps}"
+    ChuniNar "It is a kind of cruel fate, don’t you think? These shining stars didn’t have a choice, a say, any input in the matter of their existence or purpose.{p}...{p}Do the stars think of a higher power? Do they look up to something above them, just like we do? Do the stargazed have their own sky?"
+    ChuniNar "..."
+    ChuniNar "It makes me sick."
     nvl clear
-    nn "penis balls"
-    nn "more text."
-    nc "more test text."
+    ChuniNar "The stars, the beyond, the above.{p}All of it is unreachable.{p}Regardless of it all, I’m forced to hope in an entity that might get me near them or hope in the human will to overcome obstacles.{p}Both options rely on someone else. No solution to my problem exists."
+    ChuniNar "And so, I am forced."
     nvl clear
-    nn "penis."
+    ChuniNar "I’m forced to stay ground-bound, a mere spectator to the starry stage above.{p}They’ll continue to be out of range, like all the other desirables in my life. Like everything else I tried to grasp, it will all just pass through my fingers."
+    ChuniNar "I can grasp nothing.{p}I can hold nothing.{p}I can be nothing."
+    nvl clear
+    ChuniNar "Nothing.{p}Nothing.{p}Nothing. Nothing. Nothing.{p}No eyes on me.{p}No nothing.{p}Nothing.{p}Nothing.{p}Nothing."
+    nvl clear
+    ChuniNar "A new message in the thread snaps me back to look at my computer. I don’t know where my mind was, but the ping pulled me back in.{p}The alien thread has been dead lately as others are preoccupied with their daily activities.{p}Only true losers like myself have the time to talk about our delusions during these hours."
 
     #Chapter 1-2
     stop music
@@ -187,7 +185,7 @@ label start:
     ChuniNarCnt "..."
     nvl clear
     ChuniNar "A classroom filled to the brim with people.{p}Unfortunately, our school was understaffed, so this kind of cramming was a normality within this building.{p}This came with its own benefits and downsides."
-    ChuniNar "The benefit is that it allowed someone as myself to blend in with the class.{p}I never stood out, never wanted to.{p}I only wanted to remain in my delusions, by myself, unbothered by anyone else.{p}Delusions of traveling the stars, of fighting monsters, of aiding people, the lot you'd usually image in a scene of boredom."
+    ChuniNar "The benefit is that it allowed someone as myself to blend in with the class.{p}I never stood out, never wanted to.{p}I only wanted to remain in my delusions, by myself, unbothered by anyone else.{p}Delusions of traveling the stars, of fighting monsters, of aiding people, the lot you'd usually image up in a scene of boredom."
     nvl clear
     ChuniNar "A downside is that a certain few can lead the pack."
     ChuniNar "This happened during one of the many lunch times.{p}It's a simple enough story that you hear plenty of times."
@@ -201,7 +199,7 @@ label start:
     ChuniNar "That is when I felt it for the first time.{p}I could hear a ping,{w=0.2} a screw dropping somewhere.{p}A disgust I never knew before began to radiate from within to the point of being overwhelmed by it."
     nvl clear
     ChuniNar "I has to ask myself, why now?{p}What set it off?{p}Why only now{w=0.5} and not before?"
-    ChuniNar "I was too focused to answer my own questions.{p}In my vision only the bullied and the bully existed.{p}With a trembling body, I stood up and raised my bandaged covered hand.{p}I dragged my other hand to support the arm, as it seemed that my body was resisting this newly found will."
+    ChuniNar "I was too focused to answer my own questions.{p}In my vision only the bullied and the bully existed.{p}With a trembling body, I stood up and raised my bandaged covered arm.{p}I dragged my other hand to support the arm, as it seemed that my body was resisting this newly found will."
     nvl clear
     ChuniNar "No one paid me any attention as I assumed this unusual pose.{p}Not even the bully threw a glance my way, not that I needed his acknowledgement."
     ChuniNar "I took a deep breath, and closed my eyes."
@@ -234,7 +232,7 @@ label start:
     ChuniNar "Is this... was this really my doing?"
     nvl clear
     ChuniNar "I felt sick...{w=2.0}Sick."
-    ChuniNar "I felt{w=0.5} my head spin around the room. possibly as an attempt to confirm the reality I now lived in.{p}All of the eyes in the room remained locked on me.{p}That person was gone now."
+    ChuniNar "I felt my head spin around the room. Possibly as an attempt to confirm the reality I now lived in.{p}All of the eyes in the room remained locked on me.{p}That person was gone now."
     nvl clear
     ChuniNarCnt "..."
     nvl clear
@@ -262,7 +260,7 @@ label start:
     ChuniNar "It speaks."
     nvl clear
     ExaUn "\"Don't worry. I'll pay you back for the favor you did me."
-    ChuniNar "It approaches"
+    ChuniNar "It approaches."
     ExaCont "\"I'll unpeel those eyes off you myself.\"{p}\"That is you wish after all.\""
     ChuniNar "My Wish...{p}My Wish?"
     ChuniNar "What is my wish?{p}To disappear?"
