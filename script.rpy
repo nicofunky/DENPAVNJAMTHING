@@ -544,8 +544,15 @@ label start:
     scene black
     with pixellate
     nn "{i}After suffering a job loss, romantic failure beyond repair, death of her parents, disappointment and rejection of her brothers and sisters, failures to keep up with life at all, there was no one else that would take her in.{/i}"
-    nn "{i}She had to roam the streets on the outskirts, near this very forest.{/i}"
-
+    nn "{i}She had to roam the streets on the outskirts, near this very forest.{p}After trying to seek help again and again, with all of her options withdrawn, she reached for the stars in a final ditch attempt at some salvation.{/i}"
+    nvl clear
+    nn "{i}She closed her eyes and tried to grasp at anything that might save her.{p}Once she felt her feelings get across to the stars, she opened her eyes and looked back down on the earth.{/i}"
+    nn "{i}That’s when she came across an axe.{/i}"
+    nvl clear
+    nn "{i}An axe, of all things, was the first thing that she saw after she prayed to the heavens, to the aliens that she believed in as a child, the ones that supposedly gave her those powers.{p}She took this sight as her answer.{/i}"
+    nn "{i}Using the remaining belief in that power she once had, she took matters into her own hands and sought an ending she believed in.{p}She swung at her own head.{/i}"
+    nvl clear
+    nc "{i}And with a dull sounding thud-{/i}"
 
     scene chunni1
     with pixellate
@@ -561,6 +568,7 @@ label start:
     ChuniNarCnt "..."
     nvl clear
     ChuniNar "A key...{w=1.0} Right, a key.{p}There has to be a key somewhere here, right?{p}{i}Right?!{/i}Even if I have to flip this whole room upside down,{w=1.0} I have to find it!"
+    nvl clear
 
 
     #Chapter 3-2
