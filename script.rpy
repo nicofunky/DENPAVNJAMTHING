@@ -729,8 +729,8 @@ label shiok:
     TBNar "Exa shut off Mio's ball of energy, and began to stretch."
     nvl clear
     ExaCont "“Good good, got the message across. {w=0.6}Seriously,{w=0.5} never doing that serious business again!{w=0.5} {b}Unless!{/b} {w=0.6}It is serious business!”"
-    TBNar "That’s where the transmission ends."
-    MioNar "“It’s all so obvious in retrospect.”{nw}"
+    TBNar "That's where the transmission ends."
+    MioNar "“It's all so obvious in retrospect.”{nw}"
     TBNar "...admits Old Mio."
     nvl clear
     ExaCont "“Mio, {w=0.8}do you believe in miracles?”{nw}"
