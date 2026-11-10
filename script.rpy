@@ -33,7 +33,7 @@ define School3 = Character("Voice 3",color="#d3e8ea", kind=nvl,what_textalign=0.
 label start:
 
     #show chunni1   Show should be used for characters, not scenes
-    scene chunni1
+    scene stars1
     nvl show dissolve
     play music "Music/Respite.ogg" fadein 5.5 volume 0.5
 
@@ -53,8 +53,11 @@ label start:
     ChuniNar "I’m forced to stay ground-bound, a mere spectator to the starry stage above.{p}They’ll continue to be out of range, like all the other desirables in my life. Like everything else I tried to grasp, it will all just pass through my fingers."
     ChuniNar "I can grasp nothing.{p}I can hold nothing.{p}I can be nothing."
     nvl clear
+    scene stars2
     ChuniNar "Nothing.{p}Nothing.{p}Nothing. Nothing. Nothing.{p}No eyes on me.{p}No nothing.{p}Nothing.{p}Nothing.{p}Nothing."
     nvl clear
+    scene chunni1
+    with dissolve
     ChuniNar "A new message in the thread snaps me back to look at my computer. I don’t know where my mind was, but the ping pulled me back in.{p}The alien thread has been dead lately as others are preoccupied with their daily activities.{p}Only true losers like myself have the time to talk about our delusions during these hours."
 
     #Chapter 1-2
