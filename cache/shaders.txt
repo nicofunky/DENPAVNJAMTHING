@@ -1,24 +1,24 @@
-renpy.texture textshader.typewriter renpy.texture textshader.typewriter
-renpy.solid
-renpy.geometry renpy.texture textshader.jitter textshader.typewriter
-renpy.geometry renpy.texture textshader.typewriter
-renpy.alpha renpy.geometry renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.jitter renpy.texture textshader.typewriter textshader.jitter
-renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
-renpy.texture textshader.typewriter textshader.wave renpy.texture textshader.typewriter textshader.wave
-renpy.geometry renpy.matrixcolor renpy.texture
-renpy.geometry renpy.texture
 renpy.dissolve renpy.dissolve
 renpy.imagedissolve renpy.imagedissolve
-renpy.geometry renpy.texture textshader.slowalpha textshader.typewriter
-renpy.dissolve renpy.geometry
+renpy.texture
+renpy.texture textshader.typewriter renpy.texture textshader.typewriter
 renpy.matrixcolor renpy.texture
-renpy.alpha renpy.geometry renpy.texture
+renpy.geometry renpy.texture textshader.slowalpha textshader.typewriter
+renpy.geometry renpy.texture
+renpy.texture textshader.typewriter textshader.jitter renpy.texture textshader.typewriter textshader.jitter
+renpy.alpha renpy.geometry renpy.texture textshader.typewriter
 renpy.texture textshader.typewriter textshader.slowalpha renpy.texture textshader.typewriter textshader.slowalpha
+renpy.alpha renpy.texture textshader.typewriter renpy.texture textshader.typewriter
+renpy.geometry renpy.imagedissolve
 renpy.geometry renpy.texture textshader.typewriter textshader.wave
-renpy.geometry renpy.solid
+renpy.solid
+renpy.texture renpy.texture
+renpy.dissolve renpy.geometry
 renpy.ftl
 renpy.alpha renpy.texture
-renpy.texture
-renpy.geometry renpy.imagedissolve
-renpy.texture renpy.texture
+renpy.texture textshader.typewriter textshader.wave renpy.texture textshader.typewriter textshader.wave
+renpy.geometry renpy.solid
+renpy.geometry renpy.texture textshader.jitter textshader.typewriter
+renpy.geometry renpy.matrixcolor renpy.texture
+renpy.geometry renpy.texture textshader.typewriter
+renpy.alpha renpy.geometry renpy.texture
